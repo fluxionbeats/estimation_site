@@ -338,7 +338,6 @@ header .logo-text{
     width: 50%;
 }
 .contacts-item{
-    position: relative;
     margin-bottom: 30px;
 }
 .contacts-item:last-child{
