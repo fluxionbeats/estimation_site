@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.nav-burger').click(function(event){
+        $('.nav-burger,.nav-menu,.nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+    $('.nav-link').click(function(event){
+        $('.nav-burger,.nav-menu,.nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
