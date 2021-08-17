@@ -194,7 +194,7 @@ header .logo-text{
     width: 33%;
     overflow: hidden;
     background-color: #fff;
-    margin-right: 50px;
+    margin-right: 4em;
     transition: transform 0.2s ease;
     padding: 20px;
 }
@@ -206,9 +206,10 @@ header .logo-text{
 }
 .estimation-img{
     width: 100%;
+    max-height: 218px;
 }
 .estimation-card{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     margin-top: 20px;
     font-weight: 400;
@@ -232,7 +233,7 @@ header .logo-text{
     margin-bottom: 50px;
 }
 .guarantee-list-item{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 400;
     margin-bottom: 1em;
 }
@@ -426,7 +427,7 @@ header .logo-text{
     =============== */
     .estimation-item{
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 3em;
         width: 50%;
     }
     .estimation-types{
@@ -655,7 +656,7 @@ header .logo-text{
         font-size: 12px;
     }
     .estimation-item{
-        width: 70%;
+        width: 60%;
     }
     /* CONTACTS
     ============= */
@@ -696,12 +697,12 @@ header .logo-text{
     /* GUARANTEE
     =============== */
     .guarantee-list-item{
-        font-size: 19px;
+        font-size: 17px;
     }
     /* MY DOCUMENTS
     ================ */
     .documents-list-item{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 
@@ -709,7 +710,7 @@ header .logo-text{
     /* ESTIMATION
     =========== */
     .estimation-card{
-        font-size: 19px;
+        font-size: 15px;
     }
     /* CONTACTS
     ============== */
@@ -746,6 +747,16 @@ header .logo-text{
     .documents,.prices,
     .my-documents,.contacts{
         padding: 25px 0px;
+    }
+    /* GUARANTEE
+    =============== */
+    .guarantee-list-item{
+        font-size: 14px;
+    }
+    /* DOCUMENTS
+    ============= */
+    .documents-list-item{
+        font-size: 14px;
     }
 }
 @media (max-width: 372px){
