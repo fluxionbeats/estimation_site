@@ -273,25 +273,31 @@ header .logo-text{
     border: 1px solid #4FA0EC;
 }
 .prices-table th{
-    width: 25%;
+    width: 30%;
     background-color: #4FA0EC;
     color: #fff;
-    font-size: 18px;
-    padding: 15px;
+    font-size: 19px;
+    padding: 0.8em;
     border: none;
 }
 .prices-table th:nth-child(3n+3){
-    width: 10%;
+    width: 15%;
 }
 .prices-table th:last-child{
-    width: 10%;
+    width: 15%;
 }
 .prices-table td{
+    empty-cells: hide;
     text-align: center;
-    padding: 15px 10px;
+    padding: 1em 0.7em;
     border: 1px solid #4FA0EC;
     font-size: 14px;
 }
+.prices-table .prices-subtitle{
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+
 
 /* MY DOCUMENTS
 ================ */
@@ -645,6 +651,9 @@ header .logo-text{
     .prices-table td{
         font-size: 10px;
     }
+    .prices-table .prices-subtitle{
+        font-size: 12px;
+    }
     .estimation-item{
         width: 70%;
     }
@@ -713,12 +722,22 @@ header .logo-text{
     /* PRICES
     ============ */
     .prices-table th{
-        width: auto;
         font-size: 10px;
     }
     .prices-table td{
         font-size: 8px;
     }   
+    .prices-table .prices-subtitle{
+        font-size: 10px;
+    }
+    /* CONTACTS
+    ============= */
+    .contacts-subtitle{
+        font-size: 20px;
+    }
+    .contacts-text{
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 410px){
@@ -750,7 +769,9 @@ header .logo-text{
     /* PRICES
     ================ */
     .prices-table th{
-        width: auto;
+        font-size: 8px;
+    }
+    .prices-table .prices-subtitle{
         font-size: 8px;
     }
 
