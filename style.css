@@ -98,6 +98,28 @@ header .logo-text{
 .nav-img{
     display: none;
 }
+.button-link a{
+    background-color: transparent;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: 2px solid #fff;
+    font-weight: 500;
+}
+.button-link a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.2s ease;
+}
+.contacts .button-link{
+    margin: 1.5em 0em;
+}
+.contacts .button-link:last-child{
+    margin-bottom: 0;
+}
+.button-link a{
+    font-size: 14px;
+}
 /* INFO
 ================ */
 .info{
@@ -588,6 +610,9 @@ header .logo-text{
     .contacts-text{
         font-size: 22px;
     }
+    .button-link a{
+        font-size: 20px;
+    }
     .contacts-map{
         margin-top: 20px;
         margin-left: 0;
@@ -662,6 +687,12 @@ header .logo-text{
     ============= */
     .contacts-text{
         font-size: 19px;
+    }
+    .button-link a{
+        font-size: 19px;
+    }
+    .contacts .button-link{
+        margin-bottom: 2em;
     }
 }
 @media (max-width: 500px){
@@ -739,6 +770,9 @@ header .logo-text{
     .contacts-text{
         font-size: 17px;
     }
+    .button-link a{
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 410px){
@@ -795,6 +829,9 @@ header .logo-text{
         font-size: 20px;
     }
     .contacts-text{
+        font-size: 15px;
+    }
+    .button-link a{
         font-size: 15px;
     }
 }
