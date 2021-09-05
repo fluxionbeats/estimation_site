@@ -125,7 +125,7 @@ header .logo-text{
 .info{
     padding: 80px 0px;
     width: 100%;
-    background-image: url(./img/bg-test.jpg);
+    background-image: url(./img/bg-test.webp);
     background-position: center;
     background-size: cover;
 }
@@ -187,7 +187,7 @@ header .logo-text{
 }
 .purposes-list-item{
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 1.35em;
     padding: 0.7em;
     background-color: #f0f0f0;
@@ -243,7 +243,7 @@ header .logo-text{
 ================ */
 .guarantee{
     padding: 80px 0px;
-    background-image: url(./img/agreement.jpg);
+    background-image: url(./img/agreement.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -255,7 +255,7 @@ header .logo-text{
     margin-bottom: 50px;
 }
 .guarantee-list-item{
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
     margin-bottom: 1em;
 }
@@ -275,7 +275,7 @@ header .logo-text{
 }
 .documents-list-item{
     margin-bottom: 1em;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 /* PRICES
@@ -388,11 +388,12 @@ header .logo-text{
     width: 50%;
     overflow: hidden;
     margin-left: 20px;
+    padding: 10px;
+    padding-left: 20px;
 }
 .yandex-img{
-    width: 100%;
+    height: 400px;
 }
-
 /* GO UP
 ============== */
 .go-up{
@@ -443,18 +444,6 @@ header .logo-text{
     ================== */
     .info-title{
         font-size: 45px;
-    }
-
-    /* ESTIMATION
-    =============== */
-    .estimation-item{
-        margin-right: 0;
-        margin-bottom: 3em;
-        width: 50%;
-    }
-    .estimation-types{
-        flex-direction: column;
-        align-items: center;
     }
 }
 
@@ -593,7 +582,18 @@ header .logo-text{
     /* PURPOSES
     ================ */
     .purposes-list-item{
-        font-size: 19px;
+        font-size: 18px;
+    }
+    /* ESTIMATION
+    =============== */
+    .estimation-item{
+        margin-right: 0;
+        margin-bottom: 3em;
+        width: 40%;
+    }
+    .estimation-types{
+        flex-direction: column;
+        align-items: center;
     }
 
     /* CONTACTS
@@ -617,7 +617,7 @@ header .logo-text{
         margin-top: 20px;
         margin-left: 0;
         width: 100%;
-        padding: 25px;
+        padding: 10px;
     }
 
      /* GO-UP
@@ -639,8 +639,6 @@ header .logo-text{
     .info-list-item img{
         height: 25px;
     }
-    /* PURPOSES
-    =============== */
 }
 
 @media (max-width: 648px){
@@ -694,6 +692,9 @@ header .logo-text{
     .contacts .button-link{
         margin-bottom: 2em;
     }
+    .yandex-img{
+        height: 350px;
+    }
 }
 @media (max-width: 500px){
     /* BLOCKS
@@ -709,12 +710,12 @@ header .logo-text{
     .info-inner{
         flex-wrap: wrap;
     }
-    .info-column:nth-child(even){
+    .info-column{
         width: 100%;
-        margin-top: 1em;
     }
     .info-column.right{
         text-align: left;
+        margin-top: 1em;
     }
     .info-title{
         font-size: 35px;
@@ -734,6 +735,12 @@ header .logo-text{
     ================ */
     .documents-list-item{
         font-size: 17px;
+    }
+    /* CONTACTS
+    =============== */
+    .contacts-map{
+        padding: 0;
+        height: 300px;
     }
 }
 
